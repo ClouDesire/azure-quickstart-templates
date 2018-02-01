@@ -14,7 +14,7 @@
         "description": "Password for the Virtual Machine."
       }
     },
-    "jenkinsDnsPrefix": {
+    "dnsPrefix": {
       "type": "string",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Jenkins Virtual Machine."
@@ -59,7 +59,7 @@
       "properties": {
         "publicIPAllocationMethod": "Dynamic",
         "dnsSettings": {
-          "domainNameLabel": "[parameters('jenkinsDnsPrefix')]"
+          "domainNameLabel": "[parameters('dnsPrefix')]"
         }
       }
     },

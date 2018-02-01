@@ -14,7 +14,7 @@
         "adminPassword": {
             "value": "GEN-PASSWORD"
         },
-        "dnsNameForPublicIP": {
+        "dnsPrefix": {
             "value": "GEN-UNIQUE"
         }
     }

@@ -8,7 +8,7 @@
     "adminPassword": {
       "value": "GEN-PASSWORD"
     },
-    "jenkinsDnsPrefix": {
+    "dnsPrefix": {
       "value": "GEN-UNIQUE"
     },
     "jenkinsReleaseType": {
